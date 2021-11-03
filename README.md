@@ -1,10 +1,11 @@
 ## Vision of the camera 을 이용한 자동차 인식모델
 
-Pytorch yolov5
+Pytorch yolov5 
+<br>
 적은 학습데이터 / 버스나 오토바이 데이터수에 비해 일반차량의 데이터수가 크게 편향되어 있는 데이터 셋 ( load roboflow open dataset )
 
 ## 2021.11.03 
-50 epoch 진행 -> 텐서보드 그래프 확인 시 60번~70번까지는 더 정확도가 오를 가능성 보임. 50epoch 도 적정 
+50 epoch 진행 -> 텐서보드 그래프 확인 시 60번~70번까지는 더 정확도가 오를 가능성 보임. 50epoch 도 적정 <br>
 dataset 이 적기때문에 데이터증폭을 사용해도 괜찮을 것으로 생각됌
 
 ![labels](https://user-images.githubusercontent.com/77665102/140021035-0ff3712e-9b5d-4e0e-9237-389d81c1e9ef.jpg)
